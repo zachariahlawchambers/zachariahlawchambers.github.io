@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://zachariahlawchambers.github.io/sitemap.xml
