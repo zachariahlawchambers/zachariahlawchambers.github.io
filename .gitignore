@@ -1,0 +1,18 @@
+# Private files - keep local, never push to GitHub
+
+# Source-of-truth project doc (contains Anna's private inbox addresses)
+PROJECT.md
+
+# Client recommendations (working file, separate from any public site copy)
+anna_recommendations.txt
+
+# Local working notes
+Updates after going live for the first time.txt
+
+# Logo drafts and photos of recommendations (not site assets)
+Logo Ideas/
+Photo of recomendations/
+
+# OS junk
+.DS_Store
+Thumbs.db
