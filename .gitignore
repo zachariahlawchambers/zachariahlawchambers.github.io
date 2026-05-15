@@ -1,18 +1,33 @@
-# Private files - keep local, never push to GitHub
+# Whitelist gitignore: ignore everything by default, then explicitly allow site files.
+# If a new file doesn't show up in `git status`, it's being ignored on purpose.
+# To track something new, add a `!` rule below. Subdirectories need their own `!folder/` rule.
 
-# Source-of-truth project doc (contains Anna's private inbox addresses)
-PROJECT.md
+# Ignore everything
+*
 
-# Client recommendations (working file, separate from any public site copy)
-anna_recommendations.txt
+# Always track this file
+!.gitignore
 
-# Local working notes
-Updates after going live for the first time.txt
+# Site source files
+!*.html
+!*.css
 
-# Logo drafts and photos of recommendations (not site assets)
-Logo Ideas/
-Photo of recomendations/
+# Images
+!*.webp
+!*.jpg
+!*.jpeg
+!*.png
+!*.svg
+!*.ico
 
-# OS junk
-.DS_Store
-Thumbs.db
+# Site config and SEO
+!robots.txt
+!sitemap.xml
+
+# Fonts (if Anna ever self-hosts)
+!*.woff
+!*.woff2
+!*.ttf
+
+# README, if you add one
+!README.md
