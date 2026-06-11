@@ -110,6 +110,16 @@ a:hover, a:focus {
   text-decoration: none;
   letter-spacing: 0.04em;
   text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.site-symbol {
+  height: 1.4em;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .site-name:hover {
@@ -376,6 +386,10 @@ a:hover, a:focus {
   font-size: 0.95rem;
   color: #555;
   margin-top: 0.5rem;
+}
+
+.home-portrait {
+  max-width: 600px;
 }
 
 /* --- Contact form: fieldset + radio group --- */
